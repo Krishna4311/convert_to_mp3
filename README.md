@@ -18,6 +18,10 @@ Before running the script, ensure you have the following installed:
 2. **Dependencies:**
    - `pydub`: Python library for audio file processing.
    - `ffmpeg` or `libav`: Required by `pydub` for audio processing.
+#### If `ffmpeg` is not being recognised, explicitly mention this command
+```bash
+AudioSegment.converter = r"C:\path_to_ffmpeg\bin\ffmpeg.exe"  # Update with your FFmpeg path
+```
 
 ### Installing Dependencies
 
